@@ -16,9 +16,9 @@
 Clone all your GitHub repositories to your local machine.
 Usage:
     Option 1: Run the automated script
-    bash -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/RepoLoader/main/exec.sh)";
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/scripts.repo-loader/main/exec.sh)";
     Option 2: Run the python script, requires python3 venv and 'requests' installed
-    python -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/RepoLoader/main/repo_loader.py)"
+    python -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/scripts.repo-loader/main/repo_loader.py)"
 Required:
     Set your Personal Access Token (PAT) on your git config (git config --global github.token).
     More info: https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
