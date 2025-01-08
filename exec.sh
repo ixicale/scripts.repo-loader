@@ -12,10 +12,10 @@ pip install requests
 
 # check if github token is set
 if git config --global github.token > /dev/null 2>&1; then
-    echo "🚀 RepoLoader started..."
+    echo "🚀 scripts.repo-loader started..."
     echo ""
     # execute python script
-    python -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/RepoLoader/main/repo_loader.py)"
+    python -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/scripts.repo-loader/main/repo_loader.py)"
 
     # deactivate virtual environment
     deactivate
