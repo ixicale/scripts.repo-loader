@@ -24,7 +24,7 @@
 🚀 Execute the script directly from a remote repository:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/RepoLoader/main/exec.sh)";
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/scripts.repo-loader/main/exec.sh)";
 ```
 
 ## Features
